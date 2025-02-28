@@ -1,0 +1,7 @@
+git config --global core.autocrlf true
+
+git rm --cached -r .
+git reset --hard
+git add .
+git commit -m "Fix line endings"
+git push origin main
