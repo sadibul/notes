@@ -5,3 +5,15 @@ git reset --hard
 git add .
 git commit -m "Fix line endings"
 git push origin main
+
+
+
+
+Run Command Prompt as Administrator
+
+powershell -Command "Invoke-WebRequest -Uri https://git-scm.com/download/win -OutFile git.exe"
+git.exe
+
+then close run again cmd as admin the check that if this properly installed or not 
+git --version
+
